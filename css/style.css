@@ -1,0 +1,53 @@
+body {
+  background-color:blue; 
+      }
+
+/*There are four possile backgrounds, one is selected based on temperature */
+.temp-low {
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2012/12/09/24142/0c5fe1f137ebe9ad5b93eedf38c548d4.jpg");
+  background-size:cover;
+}
+
+.temp-high {background-image: url("http://africanfurnitureremovals.co.za/wp-content/uploads/2013/12/sunny-day-hot-summer-wallpapers-1024x768.jpg");
+   background-size:cover;
+}
+
+.temp-medium {
+  background-image: url("http://buffalotrip.com/image/data/2016/Kyoto-2/10-gorgeous-places-to-see-autumn-leaves-Momiji--fall-foliage-in-Kyoto/arashiyama-fall-foliage-kyoto-autumn-leaves-forecast-2016-2.JPG");
+  background-size:cover;
+}
+
+.container {
+  margin-top:70px;
+  margin-bottom:40px;
+  background-color:rgba(150, 150, 250, .75);
+  width:50%;
+  min-width:400px;
+}
+
+.info-box{
+  background-color:rgba(250, 250, 250, .5);
+  height:80px;
+  margin:10px -8px 20px -8px;
+  padding-top:8px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;   
+  box-shadow:  0px 0px 8px 5px #ccc;    
+}
+
+.title{
+  font-weight:600;
+}
+
+.inf{
+  font-weight:600;
+}
+
+.boxes{
+  margin-right:5px;
+  margin-left:5px;
+}
+
+#temp-label{
+  color:green !important;
+}
